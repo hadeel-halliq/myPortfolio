@@ -100,7 +100,7 @@ const projects = [
       "Recharts",
       "Framer Motion",
     ],
-    github: "https://github.com/hadeel-halliq/albaraka-dashboard-c",
+    github: "https://github.com/hadeel-halliq/albaraka-dash-cfinal",
   },
   {
     title: "Registration form",
