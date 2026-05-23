@@ -14,7 +14,18 @@ import accounting8 from "../assets/images/8.jpg";
 import accounting9 from "../assets/images/9.jpg";
 import accounting10 from "../assets/images/10.jpg";
 import sportsOg from "../assets/images/11.jpg";
-
+import H1H from "../assets/images/1H.jpg";
+import H2H from "../assets/images/2H.jpg";
+import H3H from "../assets/images/3H.jpg";
+import H4H from "../assets/images/4H.jpg";
+import H5H from "../assets/images/5H.jpg";
+import H6H from "../assets/images/6H.jpg";
+import H7H from "../assets/images/7H.jpg";
+import H8H from "../assets/images/8H.jpg";
+import H9H from "../assets/images/9H.jpg";
+import H10H from "../assets/images/10H.jpg";
+import H11H from "../assets/images/11H.jpg";
+import H12H from "../assets/images/12H.jpg";
 
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, GalleryHorizontal, Github, X } from "lucide-react";
@@ -66,8 +77,21 @@ const projects = [
   {
     title: "AlBaraka Metals – Admin Dashboard",
     description:
-      "Developed management pages for services, products, images, and client messages, ensuring a scalable and maintainable code structure. The application initially presents a login form that requires a username and password to verify authorization. Enter admin as the username and 1234 as the password to proceed to the main dashboard page.",
-    image: albarkad,
+      "This project presents an admin dashboard for managing services, products, media, branches, and client messages through a clean and scalable interface. The system includes authentication with a secure login page that verifies user authorization before accessing the dashboard. Users can manage and organize content efficiently through responsive management pages designed with a maintainable code structure. The dashboard is fully responsive across different screen sizes and connected to a real API for handling and updating data dynamically. Access credentials cannot be shared to protect business privacy, but the clean project code and project screenshots are available.",
+      images: [
+        H1H,
+        H2H,
+        H3H,
+        H4H,
+        H5H,
+        H6H,
+        H7H,
+        H8H,
+        H9H,
+        H10H,
+        H11H,
+        H12H
+      ],
     tags: [
       "React",
       "TailwindCSS",
@@ -76,7 +100,6 @@ const projects = [
       "Recharts",
       "Framer Motion",
     ],
-    link: "https://hadeel-halliq.github.io/albaraka-dashboard-c/#/login",
     github: "https://github.com/hadeel-halliq/albaraka-dashboard-c",
   },
   {
